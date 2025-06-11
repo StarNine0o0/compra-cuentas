@@ -17,6 +17,7 @@ public static void main(String[] args) {
 
         System.out.print("Ingresa el saldo inicial: ");
         double saldo = sc.nextDouble();
+      sc.nextLine();
 
         Cuenta cuenta = new Cuenta(numero, tipo, saldo);
 
@@ -27,7 +28,7 @@ do{//rellenar compras
 
       System.out.println( " Descripcion de la compra:");
       String descripcion =sc.nextLine();
-      sc.nextLine();
+      
       System.out.println("ingresa el costo de la compra");
       double costo = sc.nextDouble();
       sc.nextLine();
